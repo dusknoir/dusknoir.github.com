@@ -8,8 +8,8 @@ I love programming (with my primary tool being Ruby) and open source software. Y
 About This Site
 ===============
 
-This website is built with [Middleman](http://middlemanapp.com) and hosted on [GitHub Pages](http://pages.github.com).
+This website is built with [Middleman](http://middlemanapp.com) and hosted on [GitHub Pages](http://pages.github.com). Backgrounds are from [Subtle Patterns](http://subtlepatterns.com) (inverted Light Grunge and darkened Broken Noise) and the fonts are [Broken 15](http://www.dafont.com/broken15.font) and [Droid Sans](http://www.droidfonts.com/info/droid-sans-fonts/).
 
 The layout makes extensive use of HTML 5, CSS 3 and JavaScript, and therefore requires a modern browser. Comments are served dynamically with [Disqus](http://disqus.com); beware that default NoScript and Ghostery settings block Disqus and prevent comments from loading.
 
-The symbol at the bottom represents [kopimi](https://en.wikipedia.org/wiki/Piratbyr%C3%A5n#Kopimi): all content on this website is [dedicated to the public domain](http://unlicense.org/). You're free to share, edit and utilize anything you see here, even commercially or without attribution.
+The symbol at the bottom represents [kopimi](https://en.wikipedia.org/wiki/Piratbyr%C3%A5n#Kopimi): all content on this website is [dedicated to the public domain](http://unlicense.org/). Barring a few exceptions (see the `README.md`) you're free to share, edit and utilize anything you see here, even commercially or without attribution.
