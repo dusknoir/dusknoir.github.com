@@ -8,6 +8,6 @@ module TagsHelper
   end
 
   def tag_url(tag)
-    "/tags/#{tag}.html" # todo: implement
+    "/tags/#{tag}/" # todo: implement
   end
 end

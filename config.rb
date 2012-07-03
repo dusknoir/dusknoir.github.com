@@ -12,9 +12,11 @@ require 'lib/helpers/tags'
 helpers GravatarHelper
 helpers TagsHelper
 
+activate :directory_indexes
+
 activate :blog do |blog|
   blog.default_extension = '.md'
-  blog.permalink = ':year/:month/:day/:title.html'
+  blog.permalink = ':year/:month/:title.html'
   blog.sources = ':year/:month/:day/:title.html'
   blog.tag_template = 'tag.html'
   blog.taglink = 'tags/:tag.html'
@@ -32,6 +34,7 @@ configure :build do
   activate :minify_html
   activate :minify_css
   activate :minify_javascript
+  activate :smusher
 end
 
 set :haml, format: :html5
