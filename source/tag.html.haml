@@ -1,0 +1,6 @@
+%h1= "Posts About &#8220;#{@tag}&#8221;"
+%dl#entry-list
+  - @articles.select(&:date).sort_by(&:date).reverse.each do |article|
+    %dt
+      %time{  datetime: article.date.iso8601, title: article.date.iso8601  }= article.date.strftime("%Y-%m-%d")
+    %dd= link_to article.title, article.url

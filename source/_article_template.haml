@@ -1,0 +1,17 @@
+- @article ||= current_article
+- @idx ||= 0
+
+%article{ id: "article#{@idx}" }
+  .meta
+    %h1= link_to @article.title, @article.url
+    %p
+      Written on
+      %time{ datetime: @article.date.iso8601, title: @article.date.iso8601  }= @article.date.strftime("%A, %B #{@article.date.day.ordinalize} &#8216;%y.")
+      About
+      = "#{tags_for(@article)}."
+  .body
+    - if is_blog_article?
+      = @article.body
+    - else
+      = @article.summary
+      %p.read-more= link_to "Continue reading &#8220;#{@article.title}&#8221;", @article.url

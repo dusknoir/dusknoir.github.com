@@ -1,0 +1,3 @@
+- blog.articles[0..2].each_with_index do |article, idx|
+  - @article, @idx = article, idx
+  = partial :article_template

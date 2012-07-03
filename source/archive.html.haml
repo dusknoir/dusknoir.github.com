@@ -1,0 +1,11 @@
+%h1#tags Tags
+%ul#tag-cloud
+  - blog.tags.each do |tag, items|
+    %li= link_to prettify_tag(tag), tag_url(tag)
+
+%h1#entry-history Entry History
+%dl#entry-list
+  - blog.articles.each do |article|
+    %dt
+      %time{  datetime: article.date.iso8601, title: article.date.iso8601 }= article.date.strftime("%Y-%m-%d")
+    %dd= link_to article.title, article.url

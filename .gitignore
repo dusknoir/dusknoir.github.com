@@ -1,0 +1,6 @@
+/.bundle
+/.sass-cache
+/bin
+/build
+/vendor/bundle
+Gemfile.lock

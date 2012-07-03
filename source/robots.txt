@@ -1,0 +1,7 @@
+---
+hidden: true
+layout: nil
+---
+User-agent: ia_archiver
+Disallow: /
+Sitemap: http://tabdot.net/sitemap.xml

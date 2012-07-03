@@ -1,0 +1,40 @@
+!!!
+%html{ lang: 'en', dir: 'ltr', class: page_classes }
+  %head
+    %title= [current_article && current_article.title, data.config.site_name].compact.join(' @ ')
+    %meta{ 'http-equiv' => 'Content-type', content: 'text/html;charset=utf-8' }
+    %meta{ 'http-equiv' => 'X-UA-Compatible', content: 'IE=edge,chrome=1' }
+    %meta{ name: 'viewport', content: 'width=device-width,initial-scale=1' }
+    %link{ rel: 'icon', type: 'image/png', href: gravatar_url(data.config.site_author_email, s: 32) }
+    %link{ rel: 'alternate', type: 'application/atom+xml', href: '/atom.xml', title: data.config.site_name }
+    = stylesheet_link_tag 'site'
+  %body
+    %header
+      %h1
+        = link_to data.config.site_name, '/'
+        %small= data.config.site_tagline
+    %nav
+      %ul
+        %li= link_to 'Home', '/'
+        %li= link_to 'About', '/about.html'
+        %li= link_to 'Archive', '/archive.html'
+      %form{ action: 'https://google.com/search', method: 'GET' }
+        %p
+          %input#q{ type: 'text', name: 'q', placeholder: 'type and press enter' }
+        %input{ type: 'hidden', name: 'sitesearch', value: data.config.site_domain }
+    %section#body{ role: 'main' }
+      - if is_blog_article?
+        = partial :article_template
+        = partial :article_comments
+      - else
+        = yield
+    %footer
+      %p#public-domain= link_to "All content on #{data.config.site_name} is released into the public domain.", 'http://unlicense.org', rel: 'license'
+      %p#source= link_to 'The source code that generates this website is available on GitHub.', "https://github.com/#{data.config.github_repo}/tree/source/"
+    %script{ type: 'text/javascript', src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' }
+    = javascript_include_tag 'site'
+    - if is_blog_article?
+      %script{ type: 'text/javascript' }
+        = "var disqus_developer = location.hostname === 'localhost' ? 1 : 0;"
+        = "var disqus_shortname = #{data.config.disqus_shortname};"
+      %script{ type: 'text/javascript', src: "http://#{data.config.disqus_shortname}.disqus.com/embed.js" }
