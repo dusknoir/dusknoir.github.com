@@ -3,8 +3,8 @@
 @import 'fonts';
 @import 'variables';
 
+@import 'colorbox';
 @import 'disqus';
-@import 'prettyphoto';
 @import 'wowlinks';
 
 @include global-reset;
@@ -189,10 +189,6 @@ a {
 
   &:hover {
     color: #fff;
-
-    img {
-      background: #444444;
-    }
   }
 }
 
@@ -253,11 +249,15 @@ img {
   &.right {
     float: right;
     margin: 0 0 7px 15px;
+
+    @extend img.noborder;
   }
 
   &.left {
     float: left;
     margin: 0 15px 7px 0;
+
+    @extend img.noborder;
   }
 
   &.center {
@@ -293,7 +293,9 @@ img.noborder, .dsq-avatar img {
   @include text-shadow(#000 1px 1px 2px);
 
   img {
-    background: $color_subtle;
+    background: $color_subtle_dark;
+    max-height: none;
+    max-width: 100%;
     padding: 3px;
     position: relative;
     right: 3px;
@@ -362,4 +364,9 @@ img.noborder, .dsq-avatar img {
   clear: both;
   border-top: 1px dotted $color_subtle;
   padding: 30px 0 0 0;
+}
+
+
+.gist-file {
+  @include text-shadow(none !important);
 }
