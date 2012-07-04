@@ -1,11 +1,17 @@
-require 'date'
-require 'fileutils'
+task :build do
+  sh 'middleman build --clean'
+end
+
+task :server do
+  sh 'middleman server --disable-watcher'
+end
 
 task :deploy do
-  sh 'middleman build --clean'
+  Rake::Task[:build].invoke
 
   cd 'build' do
-    sh %(git add . && git commit -am "updated site - see source branch for details")
+    sh 'git add .'
+    sh 'git commit -am "updated site - see source branch for details"'
     sh 'git push origin master'
   end
 end
