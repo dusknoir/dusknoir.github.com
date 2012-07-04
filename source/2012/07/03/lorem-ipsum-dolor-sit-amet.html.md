@@ -16,7 +16,7 @@ Etiam fringilla porttitor massa, quis vulputate erat iaculis ut. Class aptent ta
 
 Maecenas ac lorem nulla. Cras dapibus blandit cursus. Suspendisse potenti. Nulla sollicitudin suscipit ultricies. Maecenas interdum blandit bibendum. Phasellus mattis congue nisl vel commodo. In tempus dictum purus, ac fermentum augue dapibus eu. Donec nulla nisl, ullamcorper ac posuere eget, elementum at arcu. Nullam eros nunc, ornare at porta at, rhoncus vitae purus. Proin imperdiet, ipsum ut vehicula convallis, diam velit iaculis lorem, vitae vestibulum ipsum augue eu enim. Mauris libero risus, volutpat sit amet rhoncus quis, aliquet scelerisque diam. Aenean quis libero vitae ante lacinia facilisis sed ac felis. Ut fringilla facilisis nisi, sit amet pretium quam dignissim sed.
 
-![random pic](/images/2012/07/lorem-ipsum-dolor-sit-amet/Wow-36.png)
+![random pic](/images/2012/07/03/lorem-ipsum-dolor-sit-amet/Wow-36.png)
 
 Aenean egestas fringilla diam, at mattis sapien euismod ac. Duis ac eros erat. Integer non consequat risus. Mauris sed lectus urna. Nunc ut massa eget lacus suscipit ultrices in a dui. Pellentesque tempus, neque egestas pharetra egestas, elit nunc semper tortor, ultricies pretium purus diam sit amet mauris. Pellentesque consectetur mattis facilisis. Aliquam vulputate odio vel elit rhoncus ut pharetra libero rutrum.
 

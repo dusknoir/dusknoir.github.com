@@ -14,7 +14,7 @@ activate :directory_indexes
 
 activate :blog do |blog|
   blog.default_extension = '.md'
-  blog.permalink = ':year/:month/:title.html'
+  blog.permalink = ':year/:month/:day/:title.html'
   blog.sources = ':year/:month/:day/:title.html'
   blog.tag_template = 'tag.html'
   blog.taglink = 'tags/:tag.html'
