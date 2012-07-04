@@ -34,7 +34,5 @@
     %script{ type: 'text/javascript', src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' }
     = javascript_include_tag 'site'
     - if is_blog_article?
-      %script{ type: 'text/javascript' }
-        = "var disqus_developer = location.hostname === 'localhost' ? 1 : 0;"
-        = "var disqus_shortname = #{data.config.disqus_shortname};"
+      %script{ type: 'text/javascript' }= "var disqus_developer=location.hostname==='localhost'?1:0,disqus_shortname='#{data.config.disqus_shortname}'"
       %script{ type: 'text/javascript', src: "http://#{data.config.disqus_shortname}.disqus.com/embed.js" }

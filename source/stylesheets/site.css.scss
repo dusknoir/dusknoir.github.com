@@ -41,7 +41,7 @@ header {
 
     small {
       color: $color_subtle;
-      margin: 0 0 0 5px;
+      margin: 0 0 0 15px;
 
       @include text-shadow(#000 1px 1px 1px);
     }
