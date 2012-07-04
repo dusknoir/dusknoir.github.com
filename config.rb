@@ -1,7 +1,5 @@
 $LOAD_PATH << File.dirname(__FILE__)
 
-require 'haml-coderay'
-
 require 'lib/core_ext/array'
 require 'lib/core_ext/fixnum'
 
