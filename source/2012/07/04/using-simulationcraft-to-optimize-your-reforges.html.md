@@ -1,7 +1,7 @@
 ---
 title: Using SimulationCraft to Optimize Your Reforges
 date: 2012-07-04 21:29 -05:00
-tags: theorycraft
+tags: ['theorycraft']
 ---
 
 ![SimulationCraft Logo ~right](/images/2012/07/04/using-simulationcraft-to-optimize-your-reforges/simc.png)

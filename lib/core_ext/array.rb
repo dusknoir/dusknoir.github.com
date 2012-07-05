@@ -7,7 +7,7 @@ class Array
         "#{first} and #{last}"
       else
         last = pop
-        "#{first.join(', ')} and #{last}"
+        "#{join(', ')} and #{last}"
     end
   end
 end
