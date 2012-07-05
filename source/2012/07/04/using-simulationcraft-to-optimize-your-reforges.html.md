@@ -18,7 +18,7 @@ Configuration
 
 Upon opening SimulationCraft, switch to the Options tab at the top of the screen. The default global options are fine in most cases; however, you can increase the number of iterations to 50,000 for slightly increased accuracy while increasing the time it takes to run the simulation. You should also try to match the number of threads to the number of CPU cores you have.
 
-The things you want to change are in the Buffs, Debuffs and Scaling tabs. Things like <wow spell='80398'/> strongly affect your haste scale factor, so, if you don't routinely get <wow spell='80398'/>, consider disabling it. Under scaling, analyze only hit rating, crit rating, haste rating and mastery rating. Other stats, like intellect, cannot be reforged; and WoW Reforge implicitly uses hit rating's scale factor for spirit.
+The things you want to change are in the Buffs, Debuffs and Scaling tabs. Things like [spell:80398] strongly affect your haste scale factor, so, if you don't routinely get [spell:80398], consider disabling it. Under scaling, analyze only hit rating, crit rating, haste rating and mastery rating. Other stats, like intellect, cannot be reforged; and WoW Reforge implicitly uses hit rating's scale factor for spirit.
 
 Importing Your Character
 ========================

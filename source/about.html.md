@@ -8,7 +8,7 @@ I love programming (with my primary tool being Ruby) and open source software. Y
 About This Site
 ===============
 
-This website is built with [Middleman](http://middlemanapp.com) and hosted on [GitHub Pages](http://pages.github.com). Backgrounds are from [Subtle Patterns](http://subtlepatterns.com) (inverted Light Grunge and darkened Broken Noise) and the fonts are [Broken 15](http://www.dafont.com/broken15.font) and [Droid Sans](http://www.droidfonts.com/info/droid-sans-fonts/). (Stop complaining about the header font, by the way!)
+This website is built with [Middleman](http://middlemanapp.com) and hosted on [GitHub Pages](http://pages.github.com). Backgrounds are from [Subtle Patterns](http://subtlepatterns.com) (inverted Light Grunge and darkened Broken Noise) and the fonts are [Broken 15](http://www.dafont.com/broken15.font) and [Droid Sans](http://www.droidfonts.com/info/droid-sans-fonts/). Wowhead icons are implemented with [wowlinks](https://github.com/dusknoir/wowlinks) --- feel free to borrow.
 
 The layout makes extensive use of HTML 5, CSS 3 and JavaScript, and therefore requires a modern browser. Comments are served dynamically with [Disqus](http://disqus.com); beware that default NoScript and Ghostery settings block Disqus and prevent comments from loading.
 

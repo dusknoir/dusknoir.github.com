@@ -1,19 +1,10 @@
-$LOAD_PATH << File.dirname(__FILE__)
-
-require 'middleman-wowlinks'
-
-require 'lib/core_ext/array'
-require 'lib/core_ext/fixnum'
-
-require 'lib/helpers/gravatar'
-require 'lib/helpers/tags'
-# require 'lib/helpers/wowlinks'
+Dir['lib/**/*'].each { |f| require f if File.file?(f) }
 
 helpers GravatarHelper
 helpers TagsHelper
 
-activate :directory_indexes
 activate :wowlinks
+activate :directory_indexes
 
 activate :blog do |blog|
   blog.default_extension = '.md'
@@ -29,7 +20,7 @@ compass_config do |config|
 end
 
 configure :build do
-  activate :asset_hash, exts: %w(css js)
+  activate :asset_hash, exts: %w(.css .js)
   activate :minify_html
   activate :minify_css
   activate :minify_javascript
