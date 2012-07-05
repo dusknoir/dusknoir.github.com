@@ -23,8 +23,6 @@ activate :blog do |blog|
   blog.taglink = 'tags/:tag.html'
 end
 
-page '/atom.xml', layout: false
-
 compass_config do |config|
   config.output_style = :compact
   config.sass_options = { trace_selectors: true }
@@ -37,4 +35,9 @@ configure :build do
   activate :minify_javascript
 end
 
+set :markdown_engine, :kramdown
+set :markdown,  fenced_code_blocks: true, autolink: true
+
 set :haml, format: :html5
+
+page '/atom.xml', layout: false

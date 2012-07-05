@@ -245,31 +245,25 @@ dd {
   padding: 10px 0 10px;
 }
 
-img {
-  &.right {
-    float: right;
-    margin: 0 0 7px 15px;
-
-    @extend img.noborder;
-  }
-
-  &.left {
-    float: left;
-    margin: 0 15px 7px 0;
-
-    @extend img.noborder;
-  }
-
-  &.center {
-    margin: 0 auto;
-  }
-}
-
-img.noborder, .dsq-avatar img {
+img.noborder, .dsq-avatar img, img[alt$='~left'], img[alt$='~right'] {
   background: 0 !important;
   bottom: 0 !important;
   padding: 0 !important;
   right: 0 !important;
+}
+
+img[alt$='~left'] {
+  float: left;
+  margin: 0 15px 7px 0;
+}
+
+img[alt$='~right'] {
+  float: right;
+  margin: 0 0 7px 15px;
+}
+
+img[alt$='~center'] {
+  margin: 0 auto;
 }
 
 .meta p {

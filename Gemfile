@@ -11,5 +11,6 @@ gem 'middleman-minify-html',  github: 'middleman/middleman-minify-html'
 
 gem 'builder'
 gem 'rake'
+gem 'kramdown'
 
 gem 'win32-open3-19',         platforms: [:mswin, :mingw]
