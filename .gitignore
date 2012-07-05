@@ -1,5 +1,6 @@
 /.bundle
 /.sass-cache
+/.wowlinks-cache
 /bin
 /build
 /vendor/bundle
