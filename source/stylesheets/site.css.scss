@@ -70,7 +70,7 @@ nav {
     @include text-shadow(#000 1px 1px 1px);
 
     &:hover {
-      color: $color_subtle;
+      color: $color_accent;
     }
   }
 
