@@ -1,5 +1,6 @@
 task :build do
-  sh 'middleman build --clean'
+  # sh 'middleman build --clean'
+  sh 'middleman build'
 end
 
 task :server do
