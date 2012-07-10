@@ -2,19 +2,19 @@
 #= require _colorbox
 
 $ ->
+  # fancy scrolling
   $('a[href*=#]').click ->
-    if location.hostname is @hostname and location.path is @path
+    if location.hostname is @hostname and location.pathname is @pathname
       $('html, body').animate(scrollTop: $(@hash).offset().top - 20, 500)
-      false
 
+  # lightbox
   $('a[href$=png], *[rel=lightbox], *[rel=prettyPhoto], *[rel=colorbox]').colorbox()
 
-  $('#body p img').css(
-    cursor: 'pointer'
-  ).hover(
-    -> $(this).css(background: '#333')
-  , -> $(this).css(background: '#0b0b0b')
-  ).each ->
+  # automatically linkify images
+  over = -> $(this).css(background: '#333')
+  out = -> $(this).css(background: '#0b0b0b')
+
+  $('#body p img').css(cursor: 'pointer').hover(over, out).each ->
     $this = $(this)
     $this.colorbox
       href: $this.attr('src')
