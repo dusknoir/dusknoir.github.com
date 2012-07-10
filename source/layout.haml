@@ -32,8 +32,7 @@
       %p#public-domain= link_to "All content on #{data.config.site_name} is released into the public domain.", 'http://unlicense.org', rel: 'license'
       %p#source= link_to 'The source code that generates this website is available on GitHub.', "https://github.com/#{data.config.github_repo}/tree/source/"
     %script{ type: 'text/javascript', src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' }
-    %script{ type: 'text/javascript' }= "$||document.write(\"<script src='/javascripts/jquery-1.7.2.js'><\\/script>\");var _gaq=[['_setAccount','#{data.config.analytics_code}'],['_trackPageview']];$(document.createElement('script')).attr({type:'text/javascript',src:'http://google-analytics.com/ga.js'}).appendTo('head')"
+    %script{ type: 'text/javascript' }= "$||document.write(\"<script src='/javascripts/jquery-1.7.2.js'><\\/script>\");var _gaq=[['_setAccount','#{data.config.analytics_code}'],['_trackPageview']],disqus_developer=location.hostname==='localhost'?1:0,disqus_shortname='#{data.config.disqus_shortname}';$(document.createElement('script')).attr({type:'text/javascript',src:'http://www.google-analytics.com/ga.js'}).appendTo('head');"
     = javascript_include_tag 'site'
     - if is_blog_article?
-      %script{ type: 'text/javascript' }= "var disqus_developer=location.hostname==='localhost'?1:0,disqus_shortname='#{data.config.disqus_shortname}'"
       %script{ type: 'text/javascript', src: "http://#{data.config.disqus_shortname}.disqus.com/embed.js" }
