@@ -1,7 +1,7 @@
 About Dusknoir
 ==============
 
-I play a [Shadow priest](http://us.battle.net/wow/en/character/kelthuzad/dusknwah/) and [rogue](http://us.battle.net/wow/en/character/illidan/burial/). I've been playing since 2007, and since then I've went by both Dusknoir and Burial.
+I play a [Shadow priest](http://us.battle.net/wow/en/character/kelthuzad/dusknoir/) and [rogue](http://us.battle.net/wow/en/character/illidan/burial/). I've been playing since 2007, and since then I've went by both Dusknoir and Burial.
 
 I love programming in Ruby and Lua and all of my projects are released into the public domain. You can find a list of my projects (some of which are Warcraft addons) on [my GitHub page](https://github.com/dusknoir). If you need to get in touch, you can [email me directly](mailto:me@dusknoir.net).
 
