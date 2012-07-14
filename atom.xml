@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>dusknoir.net</title>
+  <title>DUSKNOIR.NET</title>
   <id>http://dusknoir.net</id>
   <link href="http://dusknoir.net"/>
   <link href="http://dusknoir.net/atom.xml" rel="self"/>
   <updated>2012-07-04T21:52:00-05:00</updated>
   <author>
-    <name>dusknoir</name>
+    <name>DUSKNOIR</name>
   </author>
   <entry>
     <title>Shadow Identity &amp; Balance in Mists of Pandaria</title>
@@ -50,7 +50,7 @@
 &lt;p&gt;In Mists, the never-used &lt;a href="http://www.wowhead.com/spell=92711"&gt;Satin set bonus&lt;/a&gt; could be changed to reduce the cooldown of &lt;a href='http://wowhead.com/spell=15487'&gt;Silence&lt;/a&gt; by 20 seconds, bringing it closer (while still inferior) to &lt;a href='http://wowhead.com/spell=2139'&gt;Counterspell&lt;/a&gt;. &lt;a href='http://wowhead.com/spell=64044'&gt;Psychic Horror&lt;/a&gt;'s cooldown should be reduced to 45 seconds &amp;mdash; &lt;a href='http://wowhead.com/spell=6789'&gt;Death Coil&lt;/a&gt; has seen the same treatment in Mists, and also heals for 25% of your maximum health. Our (and other hybrid's) heals should stay, and friendly magic dispel should be returned to the classes that lost it. The mana cost and risks associated with &lt;a href='http://wowhead.com/spell=32375'&gt;Mass Dispel&lt;/a&gt; make it an unsuitable replacement.&lt;/p&gt;
 </content>
     <author>
-      <name>dusknoir</name>
+      <name>DUSKNOIR</name>
     </author>
   </entry>
   <entry>
@@ -95,7 +95,7 @@
 &lt;p&gt;If your problem is unrelated to Silverlight, take a look at their &lt;a href="http://wowreforge.com/portal/Forums/ForumView.aspx?pageid=0&amp;amp;mid=2&amp;amp;ItemID=5"&gt;support forum&lt;/a&gt; or &lt;a href="http://wowreforge.com/portal/faqs.aspx"&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
 </content>
     <author>
-      <name>dusknoir</name>
+      <name>DUSKNOIR</name>
     </author>
   </entry>
 </feed>
