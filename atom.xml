@@ -4,10 +4,42 @@
   <id>http://dusknoir.net</id>
   <link href="http://dusknoir.net"/>
   <link href="http://dusknoir.net/atom.xml" rel="self"/>
-  <updated>2012-07-04T21:52:00-05:00</updated>
+  <updated>2012-08-27T20:08:00-04:00</updated>
   <author>
     <name>DUSKNOIR</name>
   </author>
+  <entry>
+    <title>The Weakest Link in Warcraft Security</title>
+    <id>/2012/08/27/the-weakest-link-in-warcraft-security/</id>
+    <link rel="alternate" href="/2012/08/27/the-weakest-link-in-warcraft-security/"/>
+    <published>2012-08-27T20:08:00-04:00</published>
+    <content type="html">&lt;p&gt;Did you know that &lt;a href="https://news.ycombinator.com/item?id=4022145"&gt;battle.net account passwords aren't case sensitive&lt;/a&gt;? They're also limited to 16 characters, and exclude some non-alphanumeric symbols. And passwords are very easy to crack: computers built for the purpose, with multiple graphics cards, can test between 100,000 and 3 million passwords per second. Still, you have an authenticator, right? &lt;a href="https://en.wikipedia.org/wiki/Two-factor_authentication#Tokens_with_a_display_.28disconnected_tokens.29"&gt;Two-factor authentication&lt;/a&gt; should make up for any lapses in Blizzard's security.&lt;/p&gt;
+
+&lt;p&gt;It doesn't: &lt;a href="http://www.arenajunkies.com/topic/227822-proof-hydrahacked/"&gt;Xandyn (allegedly) accessed Hydra's account&lt;/a&gt; and disbanded his arena teams. Hydra's password may not have been great, but he did use an authenticator.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; Xandyn accessed his account by exploiting the weakest link in Blizzard's security: humans.&lt;/p&gt;
+
+&lt;h1 id="conning-blizzard"&gt;Conning Blizzard&lt;/h1&gt;
+
+&lt;p&gt;He called Blizzard and presented a fake ID, claiming to be Hydra. We can't blame Blizzard for assuming Xandyn was really Hydra. They don't record photos, so any ID with a matching name can be used. That isn't a problem on their end, because recording photos and ID raises several problems with regards to privacy. &lt;a href="http://www.joystiq.com/2010/07/09/real-id-nixed-from-blizzard-forums-morhaime-explains/"&gt;People don't like their real identities being tied to the game.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The fault is in Blizzard relying on that alone, because of how trivial (albeit illegal) it is to create fake identification. Surely, Xandyn couldn't answer any
+&lt;a href="http://www.slate.com/articles/news_and_politics/explainer/2012/06/mitt_romney_email_hack_which_password_recovery_questions_are_most_secure_.html"&gt;&lt;em&gt;secure&lt;/em&gt; recovery questions&lt;/a&gt; that Hydra may have had in place, and couldn't answer any questions regarding Hydra's billing information.&lt;/p&gt;
+
+&lt;h1 id="what-to-take-from-this"&gt;What to Take From This&lt;/h1&gt;
+
+&lt;p&gt;In security, &lt;a href="https://en.wikipedia.org/wiki/Social_engineering_%28security%29"&gt;the weakest link is always humans&lt;/a&gt;. And not only Blizzard; you couldn't count how many people are more than willing to hand over their information to an in-game password inspector. People need to choose secure passwords; they need to choose secure recovery questions; they need to use an authenticator; and, most importantly, they need Blizzard to respect those things. This could be the catalyst to widespread identity fraud in the PVP community — it being illegal didn't stop DDOSing.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:1"&gt;
+      &lt;p&gt;&lt;a href="http://www.arenajunkies.com/topic/227779-hydra-hacked-2-days-before-season-end/page__view__findpost__p__3750781"&gt;Hydra hacked 2 days before season end! - Arena Junkies&lt;/a&gt;&lt;a href="#fnref:1" rel="reference"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+    <author>
+      <name>DUSKNOIR</name>
+    </author>
+  </entry>
   <entry>
     <title>Shadow Identity &amp; Balance in Mists of Pandaria</title>
     <id>/2012/07/04/shadow-identity-balance-in-mists-of-pandaria/</id>
