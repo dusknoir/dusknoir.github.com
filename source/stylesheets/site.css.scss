@@ -261,10 +261,6 @@ img[alt$='~right'] {
   margin: 0 0 7px 15px;
 }
 
-img[alt$='~center'] {
-  margin: 0 auto;
-}
-
 .meta p {
   color: $color_subtle;
   font: $font_header;
@@ -326,6 +322,27 @@ img[alt$='~center'] {
       }
     }
   }
+}
+
+a[rel='footnote'] {
+  font-size: 50%;
+  opacity: 0.75;
+  vertical-align: super;
+}
+
+a[rel='reference'] {
+  color: #fff;
+  opacity: 0.75;
+  text-decoration: none !important;
+  margin: 0 0 0 5px;
+}
+
+.footnotes {
+  border-top: 1px dotted #333;
+  font-size: 90%;
+  margin: 20px 0 0 0;
+  opacity: 0.9;
+  padding: 5px 0 0 0;
 }
 
 #entry-list {
