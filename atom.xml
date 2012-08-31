@@ -13,60 +13,25 @@
     <id>/2012/08/31/5-0-bugs-intricacies-mathematics-of-pvp-power/</id>
     <link rel="alternate" href="/2012/08/31/5-0-bugs-intricacies-mathematics-of-pvp-power/"/>
     <published>2012-08-31T13:47:00-04:00</published>
-    <content type="html">&lt;p&gt;Patch 5.0.4 was just released, and with it comes all of the new spells
-and talents of Mists of Pandaria. Here's a look at our new spells, their
-possible uses, and any bugs we've discovered so far. Lastly, we'll also
-go over how 5.0's new stat—PvP Power—compares to Intellect and
-secondary stats.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Patch 5.0.4 was just released, and with it comes all of the new spells and talents of Mists of Pandaria. Here's a look at our new spells, their possible uses, and any bugs we've discovered so far. Lastly, we'll also go over how 5.0's new stat—PvP Power—compares to Intellect and secondary stats.&lt;/p&gt;
 
 &lt;h1 id="new-spells--talents"&gt;New Spells &amp;amp; Talents&lt;/h1&gt;
 
-&lt;p&gt;The first talent tier has primarily CC spells: &lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt;, &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt;
-and &lt;a href='http://wowhead.com/spell=605'&gt;Dominate Mind&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The first talent tier has primarily CC spells: &lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt;, &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; and &lt;a href='http://wowhead.com/spell=605'&gt;Dominate Mind&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt; is incredible against melee, usable after a broken &lt;a href='http://wowhead.com/spell=8122'&gt;Psychic Scream&lt;/a&gt;
-to let you cast (yes, casting against melee!) It does, however, have a bug:
-targets immune to fear effects are also immune to &lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt;. That isn't a
-huge problem until you consider that its best purpose—keeping a warrior or
-death knight off of you after a broken fear—is impossible. It does give it a
-niche purpose, removing &lt;a href='http://wowhead.com/spell=6346'&gt;Fear Ward&lt;/a&gt; very quickly, but &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; is much
-better suited for that. You can use &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; for a fear around LOS, or
-against a healer who's kiting you. &lt;a href='http://wowhead.com/spell=605'&gt;Dominate Mind&lt;/a&gt; is more situational than the
-other options, but works very well with &lt;a href='http://wowhead.com/spell=108942'&gt;Phantasm&lt;/a&gt;. I'll be taking
-&lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; anywhere outside of rogue duels.&lt;/p&gt;
+&lt;p&gt;&lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt; is incredible against melee, usable after a broken &lt;a href='http://wowhead.com/spell=8122'&gt;Psychic Scream&lt;/a&gt; to let you cast (yes, casting against melee!) It does, however, have a bug: targets immune to fear effects are also immune to &lt;a href='http://wowhead.com/spell=108920'&gt;Void Tendrils&lt;/a&gt;. That isn't a huge problem until you consider that its best purpose—keeping a warrior or death knight off of you after a broken fear—is impossible. It does give it a niche purpose, removing &lt;a href='http://wowhead.com/spell=6346'&gt;Fear Ward&lt;/a&gt; very quickly, but &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; is much better suited for that. You can use &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; for a fear around LOS, or against a healer who's kiting you. &lt;a href='http://wowhead.com/spell=605'&gt;Dominate Mind&lt;/a&gt; is more situational than the other options, but works very well with &lt;a href='http://wowhead.com/spell=108942'&gt;Phantasm&lt;/a&gt;. I'll be taking &lt;a href='http://wowhead.com/spell=108921'&gt;Psyfiend&lt;/a&gt; anywhere outside of rogue duels.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt;, the spell that nearly single-handedly made me want to
-play priest in Mists, is unfortunately very underwhelming. If you have
-any DoT effects on you when you use it, they'll pull you out of stealth when
-they tick. It does have some great uses, though: for example,  during
-&lt;a href='http://wowhead.com/spell=44572'&gt;Deep Freeze&lt;/a&gt; to prevent the incoming &lt;a href='http://wowhead.com/spell=116'&gt;Frostbolt&lt;/a&gt; (however, the Water Elemental
-and their &lt;a href='http://wowhead.com/spell=55342'&gt;Mirror Image&lt;/a&gt;s will still cast while you're in stealth, so make sure
-you time it right!)&lt;/p&gt;
+&lt;p&gt;&lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt;, the spell that nearly single-handedly made me want to play priest in Mists, is unfortunately very underwhelming. If you have any DoT effects on you when you use it, they'll pull you out of stealth when they tick. It does have some great uses, though: for example,  during &lt;a href='http://wowhead.com/spell=44572'&gt;Deep Freeze&lt;/a&gt; to prevent the incoming &lt;a href='http://wowhead.com/spell=116'&gt;Frostbolt&lt;/a&gt; (however, the Water Elemental and their &lt;a href='http://wowhead.com/spell=55342'&gt;Mirror Image&lt;/a&gt;s will still cast while you're in stealth, so make sure you time it right!)&lt;/p&gt;
 
-&lt;p&gt;Another use is against rogues: &lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt; can be used
-while you're sapped or stunned, delaying their opener (letting DoTs/HoTs and
-&lt;a href='http://wowhead.com/spell=6788'&gt;Weakened Soul&lt;/a&gt; tick down) or giving you a moment for a healer to top you off.
-You can also use it as a basic stealth, to get a flawless &lt;a href='http://wowhead.com/spell=8122'&gt;Psychic Scream&lt;/a&gt; at the
-beginning of an arena match or any other time you don't have more than a DoT or
-two.&lt;/p&gt;
+&lt;p&gt;Another use is against rogues: &lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt; can be used while you're sapped or stunned, delaying their opener (letting DoTs/HoTs and &lt;a href='http://wowhead.com/spell=6788'&gt;Weakened Soul&lt;/a&gt; tick down) or giving you a moment for a healer to top you off. You can also use it as a basic stealth, to get a flawless &lt;a href='http://wowhead.com/spell=8122'&gt;Psychic Scream&lt;/a&gt; at the beginning of an arena match or any other time you don't have more than a DoT or two.&lt;/p&gt;
 
-&lt;p&gt;The alteratives to &lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt; are &lt;a href='http://wowhead.com/spell=19236'&gt;Desperate Prayer&lt;/a&gt; and &lt;a href='http://wowhead.com/spell=108945'&gt;Angelic Bulwark&lt;/a&gt;. The
-effects of both are really very similar, but the latter is automatic, has a
-shorter cooldown, and prevents a third less damage. It does provide a great
-defense against execute effects, which have become very powerful.&lt;/p&gt;
+&lt;p&gt;The alteratives to &lt;a href='http://wowhead.com/spell=112833'&gt;Spectral Guise&lt;/a&gt; are &lt;a href='http://wowhead.com/spell=19236'&gt;Desperate Prayer&lt;/a&gt; and &lt;a href='http://wowhead.com/spell=108945'&gt;Angelic Bulwark&lt;/a&gt;. The effects of both are really very similar, but the latter is automatic, has a shorter cooldown, and prevents a third less damage. It does provide a great defense against execute effects, which have become very powerful.&lt;/p&gt;
 
 &lt;h1 id="pvp-power"&gt;PvP Power&lt;/h1&gt;
 
-&lt;p&gt;Power provides a flat damage increase against other players at a rate of 1%
-more damage per 79 rating. For comparison, haste (our best secondary stat)
-increases DPS by 1% per 128 rating. Point for point, power is worth 60% more
-than haste; and because haste is worth three-quarters of an intellect&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, that 
-means PvP power is worth about 20% more than intellect! Our stat priority is
-therefore power &amp;gt; intellect &amp;gt; haste &amp;gt; critical &amp;gt; mastery. I've put &lt;a href='http://wowhead.com/item=71818'&gt;Stormy Deepholm Iolite&lt;/a&gt;
-in every socket, with three &lt;a href='http://wowhead.com/item=77133'&gt;Mysterious Shadow Spinel&lt;/a&gt; to activate my meta gem, and it's
-working great.&lt;/p&gt;
+&lt;p&gt;Power provides a flat damage increase against other players at a rate of 1% more damage per 79 rating. For comparison, haste (our best secondary stat) increases DPS by 1% per 128 rating. Point for point, power is worth 60% more than haste; and because haste is worth three-quarters of an intellect&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, that  means PvP power is worth about 20% more than intellect! Our stat priority is therefore power &amp;gt; intellect &amp;gt; haste &amp;gt; critical &amp;gt; mastery. I've put &lt;a href='http://wowhead.com/item=71818'&gt;Stormy Deepholm Iolite&lt;/a&gt; in every socket, with three &lt;a href='http://wowhead.com/item=77133'&gt;Mysterious Shadow Spinel&lt;/a&gt; to activate my meta gem, and it's working great.&lt;/p&gt;
 
 &lt;div class="footnotes"&gt;
   &lt;ol&gt;
