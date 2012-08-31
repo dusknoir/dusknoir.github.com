@@ -1,8 +1,8 @@
 ---
 title: The Weakest Link in Warcraft Security
 date: 2012-08-27 20:08 -04:00
-tags: security
---
+tags: ['security']
+---
 
 Did you know that [battle.net account passwords aren't case sensitive](https://news.ycombinator.com/item?id=4022145)? They're also limited to 16 characters, and exclude some non-alphanumeric symbols. And passwords are very easy to crack: computers built for the purpose, with multiple graphics cards, can test between 100,000 and 3 million passwords per second. Still, you have an authenticator, right? [Two-factor authentication](https://en.wikipedia.org/wiki/Two-factor_authentication#Tokens_with_a_display_.28disconnected_tokens.29) should make up for any lapses in Blizzard's security.
 

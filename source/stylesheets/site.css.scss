@@ -244,6 +244,12 @@ dd {
   padding: 10px 0 10px;
 }
 
+hr {
+  background: 0;
+  border: 0;
+  border-top: 1px dotted #333;
+}
+
 img.noborder, .dsq-avatar img, img[alt$='~left'], img[alt$='~right'] {
   background: 0 !important;
   bottom: 0 !important;
